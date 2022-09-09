@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/tv01"
+        android:background = "@drawable/leaf"
+        android:layout_centerInParent = "true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/tv02"
+        android:background = "@drawable/leaf"
+        android:layout_above = "@id/tv01"
+        android:layout_alignLeft = "@id/tv01"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/tv03"
+        android:background = "@drawable/leaf"
+        android:layout_below = "@id/tv01"
+        android:layout_alignLeft = "@id/tv01"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/tv04"
+        android:background = "@drawable/leaf"
+        android:layout_toLeftOf = "@id/tv01"
+        android:layout_alignTop = "@id/tv01"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/tv05"
+        android:background = "@drawable/leaf"
+        android:layout_toRightOf = "@id/tv01"
+        android:layout_alignTop = "@id/tv01"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/tv06"
+        android:background = "@drawable/leaf"
+        android:layout_toRightOf = "@id/tv02"
+        android:layout_alignTop = "@id/tv02"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/tv07"
+        android:background = "@drawable/leaf"
+        android:layout_toLeftOf = "@id/tv02"
+        android:layout_alignTop = "@id/tv02"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/tv08"
+        android:background = "@drawable/leaf"
+        android:layout_toRightOf = "@id/tv03"
+        android:layout_alignTop = "@id/tv03"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/tv09"
+        android:background = "@drawable/leaf"
+        android:layout_toLeftOf = "@id/tv03"
+        android:layout_alignTop = "@id/tv03"/>
+</RelativeLayout>

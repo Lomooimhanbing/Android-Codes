@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns = "1"
+    android:stretchColumns = "2">
+
+    <Button
+        android:id = "@+id/BN1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "BN1"/>
+    <TableRow>
+        <Button
+            android:id = "@+id/BN2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "BN2"/>
+        <Button
+            android:id = "@+id/BN3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "BN3"/>
+        <Button
+            android:id = "@+id/BN4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "BN4"/>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount = "6"
+    android:columnCount = "4"
+    android:id = "@+id/root">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan = "4"
+        android:text = "0"
+        android:textSize = "50sp"
+        android:layout_marginLeft = "5px"
+        android:layout_marginRight = "5px"
+        android:padding = "5px"
+
+</GridLayout>
